@@ -6,6 +6,7 @@ Matplotlib 的基本用法
 fig, ax = plt.subplots(nrows=2, ncols=2, figsize=(16,10)) # 两行两列共4个子图
 ```
 notice: 当图只有一行时,例如一行两列或者三列, 那么每个图不能用两个数字表示,而应该用一个数字,例如 ```ax[0], ax[1]```
+
 **2.1 线形图**
 ```
 ax[0,0]. plot(x, y)
